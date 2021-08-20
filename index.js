@@ -1,5 +1,5 @@
 const aoi = require('aoi.js')
-const aoi = new.aoiBot({
+const bot = new aoi.Bot({
    token: "process.env.token", //token env'e
    prefix: "$getServerVar[prefix]" /// prefix icin biraz assagi in
 });
@@ -19,7 +19,7 @@ bot.onReadyCommand({
 bot.variables({
    prefix:"" //prefixiniz
 
-////////////Kodlar Aşağıya veya komtlar klasorune////////////
+////////////Kodlar Aşağıya////////////
 
 
 bot.command({
