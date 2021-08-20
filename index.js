@@ -19,7 +19,7 @@ bot.onReadyCommand({
 bot.variables({
    prefix:"" //prefixiniz
 
-////////////Kodlar Aşağıya////////////
+////////////Kodlar Aşağıya veya komtlar klasorune////////////
 
 
 bot.command({
